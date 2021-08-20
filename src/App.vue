@@ -1,32 +1,103 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+<v-app id="id-app" >
+  <Navbar/>
+  <v-main color="black" >
+    <v-container fluid >
+  <!-- <v-fade-transition hide-on-leave > -->
+      <router-view></router-view>
+  <!-- </v-fade-transition> -->
+    </v-container>
+  <Whatsapp/>
+  </v-main>
+  <v-footer color="black d-flex justify-center" >
+    <h5 class="white--text text-center pb-4 pt-3">www.equiposmineros.cl</h5>
+  </v-footer>
+
+</v-app>
+
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import Navbar from '@/components/Navbar.vue'
+import Whatsapp from '@/components/Whatsapp.vue'
+import {mapActions} from "vuex";
+
+
+export default {
+  components: { Navbar, Whatsapp},
+  name: 'App',
+  data(){
+    return {
+      dialog: false
+    }
+  },
+
+  methods: {
+    ...mapActions(['authStateChange']),
+    
+  },
+  mounted() {
+    this.authStateChange();
+  },
+};
+</script>
+
+<style scoped >
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0px;
+    border: 0;
+    padding: 0;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  html {
+  scroll-behavior: smooth !important;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
-#nav {
-  padding: 30px;
-}
+  #modal-form{
+    z-index: 3
+  }
+  #id-app{
+  background: black;
+  /* width: 100%; */
+   top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  #nav{ 
+    background: black;
+    opacity: 0.8;
+    z-index: 2;
+    margin:0;
+    width: 100vw;
+    }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  ul {
+    list-style-type: none;
+    }
+    a{
+      text-decoration: none;
+    }
+
+    .hr-1 {
+      background: red;
+      height: 3px;
+      position: relative;
+      width: 50px;
+      display: flex;
+      align-items: flex-end;
+
+    }
 </style>

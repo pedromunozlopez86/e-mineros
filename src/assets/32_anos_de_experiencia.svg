@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="278px" height="88px" viewBox="0 0 278 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>32 años de experiencia</title>
+    <defs>
+        <text id="text-1" font-family="Roboto-Medium, Roboto" font-size="23.6638655" font-weight="400" line-spacing="28.8403361" fill="#FFFFFF">
+            <tspan x="97.5652174" y="37.5294118">Experiencia </tspan>
+            <tspan x="97.5652174" y="66.3697479">&amp; Trayectoria</tspan>
+        </text>
+        <filter x="-2.9%" y="-6.4%" width="105.7%" height="116.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.813592657 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="Roboto-Bold, Roboto" font-size="40.6722689" font-weight="bold" fill="#FFFFFF">
+            <tspan x="20.643341" y="53.5294118">32</tspan>
+        </text>
+        <filter x="-5.7%" y="-10.4%" width="111.4%" height="126.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.813592657 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-5" font-family="Roboto-Medium, Roboto" font-size="14.789916" font-weight="400" letter-spacing="0.434997547" fill="#FFFFFF">
+            <tspan x="26.2204638" y="67.9831933">Años</tspan>
+        </text>
+        <filter x="-5.7%" y="-20.0%" width="111.4%" height="150.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.813592657 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-1-a" transform="translate(-188.000000, -535.000000)">
+            <g id="32-años-de-experiencia" transform="translate(191.000000, 535.000000)">
+                <rect id="Rectangle" fill="#000000" opacity="0.405761719" x="0" y="0" width="265.347826" height="88" rx="44"></rect>
+                <g id="Experiencia-&amp;-Trayec" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                    <use xlink:href="#text-1"></use>
+                </g>
+                <rect id="Rectangle" stroke="#E41E15" stroke-width="4.43697479" fill-opacity="0.4" fill="#000000" x="2.21848739" y="2.21848739" width="83.5195469" height="83.5630252" rx="41.7597735"></rect>
+                <g id="32" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use xlink:href="#text-3"></use>
+                </g>
+                <g id="Años" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-6)" xlink:href="#text-5"></use>
+                    <use xlink:href="#text-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

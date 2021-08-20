@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-1-a" transform="translate(-958.000000, -2122.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Footer" transform="translate(0.000000, 2003.000000)">
+                <path d="M969.9,119 L960.1,119 C958.940202,119 958,119.940202 958,121.1 L958,128.1 C958,129.259798 958.940202,130.2 960.1,130.2 L969.9,130.2 C971.059798,130.2 972,129.259798 972,128.1 L972,121.1 C972,119.940202 971.059798,119 969.9,119 Z M969.9,120.4 L965.35,123.529 C965.133419,123.654043 964.866581,123.654043 964.65,123.529 L960.1,120.4 L969.9,120.4 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

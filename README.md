@@ -1,5 +1,5 @@
 # emineros
-
+Página web oficial de la empresa Equipos Mineros EMSA Ltda.
 ## Project setup
 ```
 yarn install
@@ -27,3 +27,6 @@ yarn test:e2e
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Authors
+  Pedro Muñoz López 
